@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  background: #fff;
+  color: #333;
+  padding: 1em 3em;
+  font-family: "Stylish", sans-serif;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: #bbb;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+button:active {
+  background: #ccc;
+}
+
+.game-img {
+  width: 300px;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 1px solid #333;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid #333;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th,
+.scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
